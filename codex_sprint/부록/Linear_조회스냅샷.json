@@ -1,0 +1,207 @@
+{
+  "observed_date": "2026-09-08",
+  "observed_timezone": "Asia/Seoul",
+  "source": "Orca Linear CLI read-only queries",
+  "workspace_id": "08e92c02-0ad7-4873-ac87-fc7b0da44a41",
+  "team": {
+    "id": "361f42c1-098d-4906-95a4-b6474aef4225",
+    "key": "GBG",
+    "name": "공방게이밍",
+    "url": "https://linear.app/wozz/team/GBG/all"
+  },
+  "queries": [
+    {
+      "command": "team members --team GBG",
+      "returned": 4
+    },
+    {
+      "command": "team states --team GBG",
+      "returned": 9
+    },
+    {
+      "command": "team labels --team GBG",
+      "returned": 11
+    },
+    {
+      "command": "project list",
+      "returned": 0,
+      "hasMore": false,
+      "partial": false
+    },
+    {
+      "command": "list-issues --team GBG --limit 250",
+      "returned": 0,
+      "hasMore": false,
+      "partial": false
+    },
+    {
+      "command": "list-issues --team GBG --limit 250 --include-archived",
+      "returned": 103,
+      "hasMore": false,
+      "partial": false
+    }
+  ],
+  "history_summary": {
+    "state_name_counts": {
+      "작업중": 6,
+      "취소됨": 37,
+      "할 일": 32,
+      "백로그": 21,
+      "완료": 7
+    },
+    "with_cycle": 0,
+    "note": "Historical status counts are not current work counts. include-archived also returned trashed records. The exact archived-versus-deleted breakdown was not verified."
+  },
+  "sample": {
+    "identifier": "GBG-236",
+    "state_name": "작업중",
+    "activity": {
+      "field": "trashed",
+      "to": true,
+      "createdAt": "2026-09-08T07:47:59.430Z"
+    }
+  },
+  "unverified": [
+    "current cycle settings",
+    "project archive/deletion breakdown",
+    "member displayName to real-person mapping"
+  ],
+  "members": [
+    {
+      "id": "40ced578-73b6-4a5b-9559-18ad904495ef",
+      "displayName": "rhinom1047"
+    },
+    {
+      "id": "f3e15ff6-ac57-4bc6-97cb-5fc1f4ec8d37",
+      "displayName": "kowofff55"
+    },
+    {
+      "id": "c58c05a9-b567-40e9-a47e-1dcf8577a580",
+      "displayName": "djm05129"
+    },
+    {
+      "id": "0e14ce1f-5b43-470e-8472-f3bfa24d9637",
+      "displayName": "banjax"
+    }
+  ],
+  "states": [
+    {
+      "id": "9042b24c-5b55-4b6c-a965-1c6bb6172e3a",
+      "name": "백로그",
+      "type": "backlog"
+    },
+    {
+      "id": "b5e96159-2c24-4284-ba6c-8719d12d9a63",
+      "name": "할 일",
+      "type": "unstarted"
+    },
+    {
+      "id": "948081a9-c316-4521-8a54-0e9f07d85bf2",
+      "name": "작업중",
+      "type": "started"
+    },
+    {
+      "id": "8d5f1321-6693-43a1-aecc-c7d058a1626a",
+      "name": "완료",
+      "type": "completed"
+    },
+    {
+      "id": "19e0a027-7418-4a96-9e33-fa2ae28066c4",
+      "name": "취소됨",
+      "type": "canceled"
+    },
+    {
+      "id": "619a0179-c2e3-4779-906b-6a13a5163ffd",
+      "name": "Duplicate",
+      "type": "duplicate"
+    },
+    {
+      "id": "93ab3c9a-fcf3-4173-8c4b-bd4e23f0f788",
+      "name": "In Review",
+      "type": "started"
+    },
+    {
+      "id": "d5adb7e6-16f9-4ff0-b7a9-85053e3cfe7b",
+      "name": "검토 대기",
+      "type": "started"
+    },
+    {
+      "id": "4b673b99-7f35-4f70-b408-9152691fb927",
+      "name": "검토중",
+      "type": "started"
+    }
+  ],
+  "labels": [
+    {
+      "id": "801dbd6e-265e-414b-b1c3-fdeab15ee1fc",
+      "name": "에셋교체대기"
+    },
+    {
+      "id": "e0d94191-1288-40e1-bbcf-e015213d5946",
+      "name": "greyBox"
+    },
+    {
+      "id": "3c24de4e-b4fb-48f8-8b57-2319bd64cb50",
+      "name": "3. 그레이박스"
+    },
+    {
+      "id": "322f3029-4510-4dad-bb69-a4e142513da1",
+      "name": "nice-to-have"
+    },
+    {
+      "id": "5e6fa4bd-0db0-477d-b3e1-f795b2f3cdf1",
+      "name": "2. 우선순위/스코프"
+    },
+    {
+      "id": "8431bde0-e9b6-4f21-9fab-87424cae18f6",
+      "name": "아트"
+    },
+    {
+      "id": "6c58bcfc-7588-4aa7-8343-8495d3db2f7e",
+      "name": "공간"
+    },
+    {
+      "id": "8d51a6ac-2cc7-4072-be7a-3a2bed3c079f",
+      "name": "설계"
+    },
+    {
+      "id": "d6f2599c-ac21-4177-a042-2c417bef2203",
+      "name": "콘텐츠"
+    },
+    {
+      "id": "f5281847-4032-43bc-ba0c-4b6b105c7984",
+      "name": "개발"
+    },
+    {
+      "id": "2168f310-1b08-4ec6-82f9-defb771a2b14",
+      "name": "1. 트랙"
+    }
+  ],
+  "post_registration": {
+    "verified_date": "2026-09-08",
+    "active_issue_count": 7,
+    "issues": [
+      "GBG-247",
+      "GBG-248",
+      "GBG-249",
+      "GBG-250",
+      "GBG-251",
+      "GBG-252",
+      "GBG-253"
+    ],
+    "states": {
+      "할 일": 4,
+      "백로그": 3
+    },
+    "project": null,
+    "cycle": null,
+    "due_dates_set": 0,
+    "relations_added": 7
+  },
+  "mutations_performed": [
+    "Created GBG-247 through GBG-253",
+    "Assigned each issue to the proposed owner",
+    "Set four M0 issues to 할 일 and three M1 issues to 백로그",
+    "Added seven blocked-by relations"
+  ]
+}
